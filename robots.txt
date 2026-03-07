@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://thoitrangtam.github.io/blog-AI/sitemap.xml
+Sitemap: https://tamnguyenai.com/sitemap.xml

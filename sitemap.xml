@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>https://thoitrangtam.github.io/blog-AI/</loc>
-<lastmod>2026-03-07</lastmod>
+<loc>https://tamnguyenai.com/</loc>
 <changefreq>weekly</changefreq>
 <priority>1.0</priority>
 </url>
 
 <url>
-<loc>https://thoitrangtam.github.io/blog-AI/AI-tools-for-bloggers.html</loc>
+<loc>https://tamnguyenai.com/AI-tools-for-bloggers.html</loc>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 
 <url>
-<loc>https://thoitrangtam.github.io/blog-AI/AI-tools-for-content-creation.html</loc>
+<loc>https://tamnguyenai.com/AI-tools-for-marketing.html</loc>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 
 <url>
-<loc>https://thoitrangtam.github.io/blog-AI/AI-tools-for-marketing.html</loc>
+<loc>https://tamnguyenai.com/AI-tools-for-SEO.html</loc>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 
 <url>
-<loc>https://thoitrangtam.github.io/blog-AI/AI-tools-for-SEO.html</loc>
+<loc>https://tamnguyenai.com/AI-tools-for-productivity.html</loc>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
