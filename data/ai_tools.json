@@ -1,0 +1,32 @@
+[
+{
+"name":"ChatGPT",
+"url":"https://chat.openai.com",
+"description":"AI assistant for writing, coding and research."
+},
+
+{
+"name":"Notion AI",
+"url":"https://notion.so",
+"description":"AI tool for notes, documents and productivity."
+},
+
+{
+"name":"Grammarly",
+"url":"https://grammarly.com",
+"description":"AI writing assistant for grammar and clarity."
+},
+
+{
+"name":"Zapier",
+"url":"https://zapier.com",
+"description":"Automation platform connecting thousands of apps."
+},
+
+{
+"name":"Canva",
+"url":"https://canva.com",
+"description":"Design platform with AI tools for images and presentations."
+}
+
+]

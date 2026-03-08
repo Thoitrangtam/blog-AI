@@ -1,6 +1,6 @@
 import os
 
-files = os.listdir("posts")
+files=os.listdir("posts")
 
 with open("sitemap.xml","w") as f:
 
@@ -8,7 +8,7 @@ with open("sitemap.xml","w") as f:
 
     for file in files:
 
-        url = f"https://tamnguyenai.com/posts/{file}"
+        url=f"https://tamnguyenai.com/posts/{file}"
 
         f.write(f"<url><loc>{url}</loc></url>")
 
