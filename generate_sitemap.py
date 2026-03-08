@@ -1,17 +1,22 @@
 import os
 
+base_url="https://tamnguyenai.com"
+
 files=os.listdir("posts")
 
-with open("sitemap.xml","w") as f:
+with open("sitemap.xml","w",encoding="utf-8") as f:
 
-    f.write("<urlset>")
+    f.write('<?xml version="1.0" encoding="UTF-8"?>\n')
+    f.write('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n')
 
     for file in files:
 
-        url=f"https://tamnguyenai.com/posts/{file}"
+        url=base_url+"/posts/"+file
 
-        f.write(f"<url><loc>{url}</loc></url>")
+        f.write("<url>\n")
+        f.write(f"<loc>{url}</loc>\n")
+        f.write("</url>\n")
 
     f.write("</urlset>")
 
-print("Sitemap generated")
+print("Sitemap created!")

@@ -1,71 +1,50 @@
-import os
 import json
+import os
 import random
 
-with open("data/ai_tools.json","r") as f:
+with open("ai_tools.json","r",encoding="utf-8") as f:
     tools=json.load(f)
 
 topics=[
-
-"SEO",
-"Blogging",
-"Marketing",
-"Productivity",
-"Social Media",
-"Ecommerce",
-"Content Creation"
-
+"best ai tools for business",
+"best ai tools for students",
+"ai tools for content creators",
+"ai tools for marketing",
+"top ai productivity tools"
 ]
 
-template=open("templates/post_template.html").read()
+template=open("templates/post_template.html","r",encoding="utf-8").read()
 
 os.makedirs("posts",exist_ok=True)
 
 for topic in topics:
 
-    title=f"Best AI Tools For {topic}"
-
-    intro=f"In this guide we explore the best AI tools for {topic}."
-
-    benefits="AI tools help automate tasks and improve productivity."
-
-    conclusion=f"Using AI tools for {topic} can save time and increase efficiency."
-
-    selected=random.sample(tools,3)
+    selected=random.sample(tools,min(3,len(tools)))
 
     tools_html=""
 
     for tool in selected:
 
+        pros="<li>"+"</li><li>".join(tool["pros"])+"</li>"
+        cons="<li>"+"</li><li>".join(tool["cons"])+"</li>"
+
         tools_html+=f"""
-        <div class='tool-card'>
-        <h3>{tool['name']}</h3>
-        <p>{tool['description']}</p>
-        <a href='{tool['url']}' target='_blank'>
-        <button>Try {tool['name']}</button>
-        </a>
-        </div>
+        <h2>{tool["name"]}</h2>
+        <p>Category: {tool["category"]}</p>
+
+        <h3>Pros</h3>
+        <ul>{pros}</ul>
+
+        <h3>Cons</h3>
+        <ul>{cons}</ul>
         """
 
-    related="""
-<ul>
-<li><a href="/posts/ai-tools-for-seo.html">AI Tools for SEO</a></li>
-<li><a href="/posts/ai-tools-for-blogging.html">AI Tools for Blogging</a></li>
-<li><a href="/posts/ai-tools-for-marketing.html">AI Tools for Marketing</a></li>
-</ul>
-"""
+    html=template.replace("{{title}}",topic.title())
+    html=html.replace("{{content}}",tools_html)
 
-    html=template.replace("{{title}}",title)
-    html=html.replace("{{topic}}",topic)
-    html=html.replace("{{intro}}",intro)
-    html=html.replace("{{benefits}}",benefits)
-    html=html.replace("{{conclusion}}",conclusion)
-    html=html.replace("{{tools}}",tools_html)
-    html=html.replace("{{related}}",related)
+    filename=f"posts/{topic.replace(' ','-')}.html"
 
-    filename=topic.lower().replace(" ","-")
-
-    with open(f"posts/ai-tools-for-{filename}.html","w",encoding="utf-8") as f:
+    with open(filename,"w",encoding="utf-8") as f:
         f.write(html)
 
-print("Posts generated successfully")
+print("Posts generated!")

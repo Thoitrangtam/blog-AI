@@ -1,0 +1,40 @@
+[
+{
+"name":"ChatGPT",
+"category":"AI Chatbot",
+"url":"https://chat.openai.com",
+"pros":[
+"Very powerful AI",
+"Fast responses",
+"Many integrations"
+],
+"cons":[
+"Sometimes hallucination",
+"Need internet"
+]
+},
+{
+"name":"Claude",
+"category":"AI Assistant",
+"url":"https://claude.ai",
+"pros":[
+"Great for writing",
+"Long context window"
+],
+"cons":[
+"Limited plugins"
+]
+},
+{
+"name":"Gemini",
+"category":"AI Assistant",
+"url":"https://gemini.google.com",
+"pros":[
+"Integrated with Google",
+"Fast answers"
+],
+"cons":[
+"Still improving"
+]
+}
+]

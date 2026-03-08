@@ -2,31 +2,47 @@
 {
 "name":"ChatGPT",
 "url":"https://chat.openai.com",
-"description":"AI assistant for writing, coding and research."
+"description":"AI chatbot for writing, coding and research.",
+"features":[
+"AI writing",
+"Code generation",
+"Research assistant"
+],
+"pros":[
+"Very powerful",
+"Easy to use",
+"Supports many tasks"
+],
+"cons":[
+"Sometimes inaccurate",
+"Advanced features require subscription"
+],
+"pricing":"Free + $20/month",
+"best_for":"Content creators and developers",
+"alternatives":[
+"Claude",
+"Google Gemini"
+]
 },
 
 {
 "name":"Notion AI",
 "url":"https://notion.so",
-"description":"AI tool for notes, documents and productivity."
-},
-
-{
-"name":"Grammarly",
-"url":"https://grammarly.com",
-"description":"AI writing assistant for grammar and clarity."
-},
-
-{
-"name":"Zapier",
-"url":"https://zapier.com",
-"description":"Automation platform connecting thousands of apps."
-},
-
-{
-"name":"Canva",
-"url":"https://canva.com",
-"description":"Design platform with AI tools for images and presentations."
+"description":"AI productivity assistant integrated into Notion workspace.",
+"features":[
+"Document writing",
+"Note summarization",
+"Knowledge management"
+],
+"pros":[
+"Great workspace integration",
+"Good productivity features"
+],
+"cons":[
+"Requires Notion",
+"Limited AI creativity"
+],
+"pricing":"Paid add-on",
+"best_for":"Teams and productivity"
 }
-
 ]
