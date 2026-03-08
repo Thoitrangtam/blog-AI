@@ -1,30 +1,32 @@
 import os
 import random
 
-html_files = [f for f in os.listdir() if f.endswith(".html")]
+folder = "posts"
 
-for file in html_files:
+files = os.listdir(folder)
 
-    with open(file,"r",encoding="utf-8") as f:
+for file in files:
+
+    path = os.path.join(folder, file)
+
+    with open(path,"r",encoding="utf-8") as f:
         content = f.read()
 
-    others = [x for x in html_files if x != file]
+    links = random.sample(files, min(3,len(files)))
 
-    related = random.sample(others, min(4,len(others)))
+    links_html = "<h2>Related Articles</h2><ul>"
 
-    links = "<h2>Related Articles</h2>\n<ul>\n"
+    for link in links:
 
-    for r in related:
+        if link != file:
+            url = link.replace(".html","")
+            links_html += f'<li><a href="/posts/{link}">{url}</a></li>'
 
-        title = r.replace(".html","").replace("-"," ").title()
+    links_html += "</ul>"
 
-        links += f'<li><a href="/{r}">{title}</a></li>\n'
+    content = content.replace("</footer>", links_html + "</footer>")
 
-    links += "</ul>"
-
-    content = content.replace("</footer>",links+"\n</footer>")
-
-    with open(file,"w",encoding="utf-8") as f:
+    with open(path,"w",encoding="utf-8") as f:
         f.write(content)
 
-print("Internal links added!")
+print("Internal links added")
