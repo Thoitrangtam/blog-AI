@@ -1,50 +1,45 @@
-import json
 import os
 import random
 
-with open("ai_tools.json","r",encoding="utf-8") as f:
-    tools=json.load(f)
+# đọc keyword
+with open("keywords.txt","r",encoding="utf-8") as f:
+    keywords=[k.strip() for k in f.readlines()]
 
-topics=[
-"best ai tools for business",
-"best ai tools for students",
-"ai tools for content creators",
-"ai tools for marketing",
-"top ai productivity tools"
-]
-
-template=open("templates/post_template.html","r",encoding="utf-8").read()
+# đọc template
+template=open("template.html","r",encoding="utf-8").read()
 
 os.makedirs("posts",exist_ok=True)
 
-for topic in topics:
+created_files=[]
 
-    selected=random.sample(tools,min(3,len(tools)))
+for kw in keywords:
 
-    tools_html=""
+    title=kw.title()
 
-    for tool in selected:
+    content=f"""
+<h2>Introduction</h2>
+<p>{title} are becoming increasingly popular as artificial intelligence grows.</p>
 
-        pros="<li>"+"</li><li>".join(tool["pros"])+"</li>"
-        cons="<li>"+"</li><li>".join(tool["cons"])+"</li>"
+<h2>Benefits of {kw}</h2>
+<p>AI tools help automate tasks, improve productivity, and reduce manual work.</p>
 
-        tools_html+=f"""
-        <h2>{tool["name"]}</h2>
-        <p>Category: {tool["category"]}</p>
+<h2>Best {kw}</h2>
+<p>There are many AI platforms available that help creators and businesses.</p>
 
-        <h3>Pros</h3>
-        <ul>{pros}</ul>
+<h2>Conclusion</h2>
+<p>{title} will continue to evolve as AI technology improves.</p>
+"""
 
-        <h3>Cons</h3>
-        <ul>{cons}</ul>
-        """
+    filename=kw.replace(" ","-")+".html"
 
-    html=template.replace("{{title}}",topic.title())
-    html=html.replace("{{content}}",tools_html)
+    created_files.append(filename)
 
-    filename=f"posts/{topic.replace(' ','-')}.html"
+    html=template.replace("{{title}}",title)
+    html=html.replace("{{content}}",content)
+
+    html=html.replace("{{related}}","")
 
     with open(filename,"w",encoding="utf-8") as f:
         f.write(html)
 
-print("Posts generated!")
+print("Posts created")

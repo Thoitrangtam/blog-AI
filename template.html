@@ -1,47 +1,51 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 
-<title>{{TITLE}}</title>
+<title>{{title}}</title>
 
-<meta name="description" content="{{DESCRIPTION}}">
+<meta name="description" content="Discover the best {{title}} and improve productivity with AI tools.">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+body{
+font-family:Arial;
+max-width:900px;
+margin:auto;
+line-height:1.7;
+padding:20px;
+}
+
+h1{color:#222;}
+
+h2{
+margin-top:40px;
+color:#0073e6;
+}
+
+a{
+color:#0066cc;
+}
+
+</style>
 
 </head>
 
 <body>
 
-<header>
-<h2><a href="/">TamNguyen AI Blog</a></h2>
-</header>
+<h1>{{title}}</h1>
 
-<h1>{{TITLE}}</h1>
+{{content}}
 
-<p>{{INTRO}}</p>
+<hr>
 
-<h2>Benefits of {{KEYWORD}}</h2>
+<h3>Related Articles</h3>
 
-<p>Artificial intelligence tools are helping businesses automate tasks and improve productivity.</p>
-
-<h2>Best Tools for {{KEYWORD}}</h2>
-
-<p>Many modern platforms now offer AI-powered solutions for {{KEYWORD}}.</p>
-
-<h2>Conclusion</h2>
-
-<p>{{KEYWORD}} will continue to grow as AI technology evolves.</p>
-
-<footer>
-
-<p>© 2025 TamNguyenAI.com</p>
-
-<h2>Related Articles</h2>
 <ul>
-<li><a href="/index.html">Index</a></li>
-<li><a href="/AI-tools-for-productivity.html">Ai Tools For Productivity</a></li>
-<li><a href="/AI-tools-for-small-business.html">Ai Tools For Small Business</a></li>
-<li><a href="/AI-tools-for-startups.html">Ai Tools For Startups</a></li>
+{{related}}
 </ul>
-</footer>
 
 </body>
+
 </html>

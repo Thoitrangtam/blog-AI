@@ -1,48 +1,32 @@
 [
 {
 "name":"ChatGPT",
-"url":"https://chat.openai.com",
-"description":"AI chatbot for writing, coding and research.",
-"features":[
-"AI writing",
-"Code generation",
-"Research assistant"
-],
-"pros":[
-"Very powerful",
-"Easy to use",
-"Supports many tasks"
-],
-"cons":[
-"Sometimes inaccurate",
-"Advanced features require subscription"
-],
-"pricing":"Free + $20/month",
-"best_for":"Content creators and developers",
-"alternatives":[
-"Claude",
-"Google Gemini"
-]
+"category":"AI Chatbot",
+"website":"https://chat.openai.com",
+"description":"AI chatbot for productivity, coding and writing."
 },
-
 {
-"name":"Notion AI",
-"url":"https://notion.so",
-"description":"AI productivity assistant integrated into Notion workspace.",
-"features":[
-"Document writing",
-"Note summarization",
-"Knowledge management"
-],
-"pros":[
-"Great workspace integration",
-"Good productivity features"
-],
-"cons":[
-"Requires Notion",
-"Limited AI creativity"
-],
-"pricing":"Paid add-on",
-"best_for":"Teams and productivity"
+"name":"Claude",
+"category":"AI Assistant",
+"website":"https://claude.ai",
+"description":"Advanced AI assistant built by Anthropic."
+},
+{
+"name":"Gemini",
+"category":"AI Assistant",
+"website":"https://gemini.google.com",
+"description":"Google's powerful AI assistant."
+},
+{
+"name":"Midjourney",
+"category":"AI Image Generator",
+"website":"https://midjourney.com",
+"description":"AI tool for generating high quality images."
+},
+{
+"name":"Runway ML",
+"category":"AI Video Generator",
+"website":"https://runwayml.com",
+"description":"AI platform for video creation."
 }
 ]
