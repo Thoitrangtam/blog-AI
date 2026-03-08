@@ -2,31 +2,49 @@
 {
 "name":"ChatGPT",
 "category":"AI Chatbot",
-"website":"https://chat.openai.com",
-"description":"AI chatbot for productivity, coding and writing."
+"description":"Advanced conversational AI created by OpenAI.",
+"website":"https://chat.openai.com"
 },
 {
 "name":"Claude",
 "category":"AI Assistant",
-"website":"https://claude.ai",
-"description":"Advanced AI assistant built by Anthropic."
+"description":"AI assistant developed by Anthropic.",
+"website":"https://claude.ai"
 },
 {
 "name":"Gemini",
-"category":"AI Assistant",
-"website":"https://gemini.google.com",
-"description":"Google's powerful AI assistant."
+"category":"AI Chatbot",
+"description":"Google's generative AI assistant.",
+"website":"https://gemini.google.com"
 },
 {
 "name":"Midjourney",
 "category":"AI Image Generator",
-"website":"https://midjourney.com",
-"description":"AI tool for generating high quality images."
+"description":"Create stunning images from text prompts.",
+"website":"https://midjourney.com"
 },
 {
 "name":"Runway ML",
 "category":"AI Video Generator",
-"website":"https://runwayml.com",
-"description":"AI platform for video creation."
+"description":"Generate and edit videos using AI.",
+"website":"https://runwayml.com"
+},
+{
+"name":"Jasper AI",
+"category":"AI Writing",
+"description":"AI writing assistant for marketing content.",
+"website":"https://jasper.ai"
+},
+{
+"name":"Copy AI",
+"category":"AI Writing",
+"description":"AI copywriting tool for marketing.",
+"website":"https://copy.ai"
+},
+{
+"name":"Surfer SEO",
+"category":"AI SEO",
+"description":"AI powered SEO optimization platform.",
+"website":"https://surferseo.com"
 }
 ]
