@@ -1,23 +1,20 @@
 import os
 
-domain = "https://tamnguyenai.com"
+base_url = "https://tamnguyenai.com"
 
-html_files = [f for f in os.listdir() if f.endswith(".html")]
+files = os.listdir("posts")
 
-sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n'
-sitemap += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+with open("sitemap.xml", "w", encoding="utf-8") as f:
 
-for file in html_files:
+    f.write('<?xml version="1.0" encoding="UTF-8"?>\n')
+    f.write('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n')
 
-    url = f"{domain}/{file}"
+    for file in files:
 
-    sitemap += "  <url>\n"
-    sitemap += f"    <loc>{url}</loc>\n"
-    sitemap += "  </url>\n"
+        url = f"{base_url}/posts/{file}"
 
-sitemap += "</urlset>"
+        f.write("<url>\n")
+        f.write(f"<loc>{url}</loc>\n")
+        f.write("</url>\n")
 
-with open("sitemap.xml","w",encoding="utf-8") as f:
-    f.write(sitemap)
-
-print("Sitemap generated!")
+    f.write("</urlset>")
