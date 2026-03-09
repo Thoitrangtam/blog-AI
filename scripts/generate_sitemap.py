@@ -22,5 +22,3 @@ for u in urls:
 xml+='</urlset>'
 
 open("sitemap.xml","w").write(xml)
-
-print("sitemap generated")

@@ -56,5 +56,4 @@ for c in comparisons:
 
     save(f"comparisons/{c['slug']}",html)
 
-
 print("site built")
