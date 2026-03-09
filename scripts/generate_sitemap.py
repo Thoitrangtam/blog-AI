@@ -1,31 +1,26 @@
 import os
 
-BASE_DIR=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-
-folders=["tools","comparisons","posts"]
+BASE="https://yourdomain.com"
 
 urls=[]
 
-for folder in folders:
+for root,dirs,files in os.walk("."):
 
-    path=os.path.join(BASE_DIR,folder)
+    if "index.html" in files:
 
-    for file in os.listdir(path):
+        path=root.replace(".","")
 
-        if file.endswith(".html"):
+        urls.append(BASE+path+"/")
 
-            urls.append(f"https://yourdomain.com/{folder}/{file}")
+xml='<?xml version="1.0" encoding="UTF-8"?>\n'
+xml+='<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
 
-sitemap="<?xml version='1.0' encoding='UTF-8'?>\n<urlset>"
+for u in urls:
 
-for url in urls:
+    xml+=f"<url><loc>{u}</loc></url>\n"
 
-    sitemap+=f"<url><loc>{url}</loc></url>"
+xml+='</urlset>'
 
-sitemap+="</urlset>"
+open("sitemap.xml","w").write(xml)
 
-with open(os.path.join(BASE_DIR,"sitemap.xml"),"w") as f:
-
-    f.write(sitemap)
-
-print("Sitemap generated")
+print("sitemap generated")

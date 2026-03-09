@@ -1,0 +1,997 @@
+[
+  {
+    "slug": "ai-tool-1-vs-ai-tool-2",
+    "toolA": "AI Tool 1",
+    "toolB": "AI Tool 2"
+  },
+  {
+    "slug": "ai-tool-2-vs-ai-tool-3",
+    "toolA": "AI Tool 2",
+    "toolB": "AI Tool 3"
+  },
+  {
+    "slug": "ai-tool-3-vs-ai-tool-4",
+    "toolA": "AI Tool 3",
+    "toolB": "AI Tool 4"
+  },
+  {
+    "slug": "ai-tool-4-vs-ai-tool-5",
+    "toolA": "AI Tool 4",
+    "toolB": "AI Tool 5"
+  },
+  {
+    "slug": "ai-tool-5-vs-ai-tool-6",
+    "toolA": "AI Tool 5",
+    "toolB": "AI Tool 6"
+  },
+  {
+    "slug": "ai-tool-6-vs-ai-tool-7",
+    "toolA": "AI Tool 6",
+    "toolB": "AI Tool 7"
+  },
+  {
+    "slug": "ai-tool-7-vs-ai-tool-8",
+    "toolA": "AI Tool 7",
+    "toolB": "AI Tool 8"
+  },
+  {
+    "slug": "ai-tool-8-vs-ai-tool-9",
+    "toolA": "AI Tool 8",
+    "toolB": "AI Tool 9"
+  },
+  {
+    "slug": "ai-tool-9-vs-ai-tool-10",
+    "toolA": "AI Tool 9",
+    "toolB": "AI Tool 10"
+  },
+  {
+    "slug": "ai-tool-10-vs-ai-tool-11",
+    "toolA": "AI Tool 10",
+    "toolB": "AI Tool 11"
+  },
+  {
+    "slug": "ai-tool-11-vs-ai-tool-12",
+    "toolA": "AI Tool 11",
+    "toolB": "AI Tool 12"
+  },
+  {
+    "slug": "ai-tool-12-vs-ai-tool-13",
+    "toolA": "AI Tool 12",
+    "toolB": "AI Tool 13"
+  },
+  {
+    "slug": "ai-tool-13-vs-ai-tool-14",
+    "toolA": "AI Tool 13",
+    "toolB": "AI Tool 14"
+  },
+  {
+    "slug": "ai-tool-14-vs-ai-tool-15",
+    "toolA": "AI Tool 14",
+    "toolB": "AI Tool 15"
+  },
+  {
+    "slug": "ai-tool-15-vs-ai-tool-16",
+    "toolA": "AI Tool 15",
+    "toolB": "AI Tool 16"
+  },
+  {
+    "slug": "ai-tool-16-vs-ai-tool-17",
+    "toolA": "AI Tool 16",
+    "toolB": "AI Tool 17"
+  },
+  {
+    "slug": "ai-tool-17-vs-ai-tool-18",
+    "toolA": "AI Tool 17",
+    "toolB": "AI Tool 18"
+  },
+  {
+    "slug": "ai-tool-18-vs-ai-tool-19",
+    "toolA": "AI Tool 18",
+    "toolB": "AI Tool 19"
+  },
+  {
+    "slug": "ai-tool-19-vs-ai-tool-20",
+    "toolA": "AI Tool 19",
+    "toolB": "AI Tool 20"
+  },
+  {
+    "slug": "ai-tool-20-vs-ai-tool-21",
+    "toolA": "AI Tool 20",
+    "toolB": "AI Tool 21"
+  },
+  {
+    "slug": "ai-tool-21-vs-ai-tool-22",
+    "toolA": "AI Tool 21",
+    "toolB": "AI Tool 22"
+  },
+  {
+    "slug": "ai-tool-22-vs-ai-tool-23",
+    "toolA": "AI Tool 22",
+    "toolB": "AI Tool 23"
+  },
+  {
+    "slug": "ai-tool-23-vs-ai-tool-24",
+    "toolA": "AI Tool 23",
+    "toolB": "AI Tool 24"
+  },
+  {
+    "slug": "ai-tool-24-vs-ai-tool-25",
+    "toolA": "AI Tool 24",
+    "toolB": "AI Tool 25"
+  },
+  {
+    "slug": "ai-tool-25-vs-ai-tool-26",
+    "toolA": "AI Tool 25",
+    "toolB": "AI Tool 26"
+  },
+  {
+    "slug": "ai-tool-26-vs-ai-tool-27",
+    "toolA": "AI Tool 26",
+    "toolB": "AI Tool 27"
+  },
+  {
+    "slug": "ai-tool-27-vs-ai-tool-28",
+    "toolA": "AI Tool 27",
+    "toolB": "AI Tool 28"
+  },
+  {
+    "slug": "ai-tool-28-vs-ai-tool-29",
+    "toolA": "AI Tool 28",
+    "toolB": "AI Tool 29"
+  },
+  {
+    "slug": "ai-tool-29-vs-ai-tool-30",
+    "toolA": "AI Tool 29",
+    "toolB": "AI Tool 30"
+  },
+  {
+    "slug": "ai-tool-30-vs-ai-tool-31",
+    "toolA": "AI Tool 30",
+    "toolB": "AI Tool 31"
+  },
+  {
+    "slug": "ai-tool-31-vs-ai-tool-32",
+    "toolA": "AI Tool 31",
+    "toolB": "AI Tool 32"
+  },
+  {
+    "slug": "ai-tool-32-vs-ai-tool-33",
+    "toolA": "AI Tool 32",
+    "toolB": "AI Tool 33"
+  },
+  {
+    "slug": "ai-tool-33-vs-ai-tool-34",
+    "toolA": "AI Tool 33",
+    "toolB": "AI Tool 34"
+  },
+  {
+    "slug": "ai-tool-34-vs-ai-tool-35",
+    "toolA": "AI Tool 34",
+    "toolB": "AI Tool 35"
+  },
+  {
+    "slug": "ai-tool-35-vs-ai-tool-36",
+    "toolA": "AI Tool 35",
+    "toolB": "AI Tool 36"
+  },
+  {
+    "slug": "ai-tool-36-vs-ai-tool-37",
+    "toolA": "AI Tool 36",
+    "toolB": "AI Tool 37"
+  },
+  {
+    "slug": "ai-tool-37-vs-ai-tool-38",
+    "toolA": "AI Tool 37",
+    "toolB": "AI Tool 38"
+  },
+  {
+    "slug": "ai-tool-38-vs-ai-tool-39",
+    "toolA": "AI Tool 38",
+    "toolB": "AI Tool 39"
+  },
+  {
+    "slug": "ai-tool-39-vs-ai-tool-40",
+    "toolA": "AI Tool 39",
+    "toolB": "AI Tool 40"
+  },
+  {
+    "slug": "ai-tool-40-vs-ai-tool-41",
+    "toolA": "AI Tool 40",
+    "toolB": "AI Tool 41"
+  },
+  {
+    "slug": "ai-tool-41-vs-ai-tool-42",
+    "toolA": "AI Tool 41",
+    "toolB": "AI Tool 42"
+  },
+  {
+    "slug": "ai-tool-42-vs-ai-tool-43",
+    "toolA": "AI Tool 42",
+    "toolB": "AI Tool 43"
+  },
+  {
+    "slug": "ai-tool-43-vs-ai-tool-44",
+    "toolA": "AI Tool 43",
+    "toolB": "AI Tool 44"
+  },
+  {
+    "slug": "ai-tool-44-vs-ai-tool-45",
+    "toolA": "AI Tool 44",
+    "toolB": "AI Tool 45"
+  },
+  {
+    "slug": "ai-tool-45-vs-ai-tool-46",
+    "toolA": "AI Tool 45",
+    "toolB": "AI Tool 46"
+  },
+  {
+    "slug": "ai-tool-46-vs-ai-tool-47",
+    "toolA": "AI Tool 46",
+    "toolB": "AI Tool 47"
+  },
+  {
+    "slug": "ai-tool-47-vs-ai-tool-48",
+    "toolA": "AI Tool 47",
+    "toolB": "AI Tool 48"
+  },
+  {
+    "slug": "ai-tool-48-vs-ai-tool-49",
+    "toolA": "AI Tool 48",
+    "toolB": "AI Tool 49"
+  },
+  {
+    "slug": "ai-tool-49-vs-ai-tool-50",
+    "toolA": "AI Tool 49",
+    "toolB": "AI Tool 50"
+  },
+  {
+    "slug": "ai-tool-50-vs-ai-tool-51",
+    "toolA": "AI Tool 50",
+    "toolB": "AI Tool 51"
+  },
+  {
+    "slug": "ai-tool-51-vs-ai-tool-52",
+    "toolA": "AI Tool 51",
+    "toolB": "AI Tool 52"
+  },
+  {
+    "slug": "ai-tool-52-vs-ai-tool-53",
+    "toolA": "AI Tool 52",
+    "toolB": "AI Tool 53"
+  },
+  {
+    "slug": "ai-tool-53-vs-ai-tool-54",
+    "toolA": "AI Tool 53",
+    "toolB": "AI Tool 54"
+  },
+  {
+    "slug": "ai-tool-54-vs-ai-tool-55",
+    "toolA": "AI Tool 54",
+    "toolB": "AI Tool 55"
+  },
+  {
+    "slug": "ai-tool-55-vs-ai-tool-56",
+    "toolA": "AI Tool 55",
+    "toolB": "AI Tool 56"
+  },
+  {
+    "slug": "ai-tool-56-vs-ai-tool-57",
+    "toolA": "AI Tool 56",
+    "toolB": "AI Tool 57"
+  },
+  {
+    "slug": "ai-tool-57-vs-ai-tool-58",
+    "toolA": "AI Tool 57",
+    "toolB": "AI Tool 58"
+  },
+  {
+    "slug": "ai-tool-58-vs-ai-tool-59",
+    "toolA": "AI Tool 58",
+    "toolB": "AI Tool 59"
+  },
+  {
+    "slug": "ai-tool-59-vs-ai-tool-60",
+    "toolA": "AI Tool 59",
+    "toolB": "AI Tool 60"
+  },
+  {
+    "slug": "ai-tool-60-vs-ai-tool-61",
+    "toolA": "AI Tool 60",
+    "toolB": "AI Tool 61"
+  },
+  {
+    "slug": "ai-tool-61-vs-ai-tool-62",
+    "toolA": "AI Tool 61",
+    "toolB": "AI Tool 62"
+  },
+  {
+    "slug": "ai-tool-62-vs-ai-tool-63",
+    "toolA": "AI Tool 62",
+    "toolB": "AI Tool 63"
+  },
+  {
+    "slug": "ai-tool-63-vs-ai-tool-64",
+    "toolA": "AI Tool 63",
+    "toolB": "AI Tool 64"
+  },
+  {
+    "slug": "ai-tool-64-vs-ai-tool-65",
+    "toolA": "AI Tool 64",
+    "toolB": "AI Tool 65"
+  },
+  {
+    "slug": "ai-tool-65-vs-ai-tool-66",
+    "toolA": "AI Tool 65",
+    "toolB": "AI Tool 66"
+  },
+  {
+    "slug": "ai-tool-66-vs-ai-tool-67",
+    "toolA": "AI Tool 66",
+    "toolB": "AI Tool 67"
+  },
+  {
+    "slug": "ai-tool-67-vs-ai-tool-68",
+    "toolA": "AI Tool 67",
+    "toolB": "AI Tool 68"
+  },
+  {
+    "slug": "ai-tool-68-vs-ai-tool-69",
+    "toolA": "AI Tool 68",
+    "toolB": "AI Tool 69"
+  },
+  {
+    "slug": "ai-tool-69-vs-ai-tool-70",
+    "toolA": "AI Tool 69",
+    "toolB": "AI Tool 70"
+  },
+  {
+    "slug": "ai-tool-70-vs-ai-tool-71",
+    "toolA": "AI Tool 70",
+    "toolB": "AI Tool 71"
+  },
+  {
+    "slug": "ai-tool-71-vs-ai-tool-72",
+    "toolA": "AI Tool 71",
+    "toolB": "AI Tool 72"
+  },
+  {
+    "slug": "ai-tool-72-vs-ai-tool-73",
+    "toolA": "AI Tool 72",
+    "toolB": "AI Tool 73"
+  },
+  {
+    "slug": "ai-tool-73-vs-ai-tool-74",
+    "toolA": "AI Tool 73",
+    "toolB": "AI Tool 74"
+  },
+  {
+    "slug": "ai-tool-74-vs-ai-tool-75",
+    "toolA": "AI Tool 74",
+    "toolB": "AI Tool 75"
+  },
+  {
+    "slug": "ai-tool-75-vs-ai-tool-76",
+    "toolA": "AI Tool 75",
+    "toolB": "AI Tool 76"
+  },
+  {
+    "slug": "ai-tool-76-vs-ai-tool-77",
+    "toolA": "AI Tool 76",
+    "toolB": "AI Tool 77"
+  },
+  {
+    "slug": "ai-tool-77-vs-ai-tool-78",
+    "toolA": "AI Tool 77",
+    "toolB": "AI Tool 78"
+  },
+  {
+    "slug": "ai-tool-78-vs-ai-tool-79",
+    "toolA": "AI Tool 78",
+    "toolB": "AI Tool 79"
+  },
+  {
+    "slug": "ai-tool-79-vs-ai-tool-80",
+    "toolA": "AI Tool 79",
+    "toolB": "AI Tool 80"
+  },
+  {
+    "slug": "ai-tool-80-vs-ai-tool-81",
+    "toolA": "AI Tool 80",
+    "toolB": "AI Tool 81"
+  },
+  {
+    "slug": "ai-tool-81-vs-ai-tool-82",
+    "toolA": "AI Tool 81",
+    "toolB": "AI Tool 82"
+  },
+  {
+    "slug": "ai-tool-82-vs-ai-tool-83",
+    "toolA": "AI Tool 82",
+    "toolB": "AI Tool 83"
+  },
+  {
+    "slug": "ai-tool-83-vs-ai-tool-84",
+    "toolA": "AI Tool 83",
+    "toolB": "AI Tool 84"
+  },
+  {
+    "slug": "ai-tool-84-vs-ai-tool-85",
+    "toolA": "AI Tool 84",
+    "toolB": "AI Tool 85"
+  },
+  {
+    "slug": "ai-tool-85-vs-ai-tool-86",
+    "toolA": "AI Tool 85",
+    "toolB": "AI Tool 86"
+  },
+  {
+    "slug": "ai-tool-86-vs-ai-tool-87",
+    "toolA": "AI Tool 86",
+    "toolB": "AI Tool 87"
+  },
+  {
+    "slug": "ai-tool-87-vs-ai-tool-88",
+    "toolA": "AI Tool 87",
+    "toolB": "AI Tool 88"
+  },
+  {
+    "slug": "ai-tool-88-vs-ai-tool-89",
+    "toolA": "AI Tool 88",
+    "toolB": "AI Tool 89"
+  },
+  {
+    "slug": "ai-tool-89-vs-ai-tool-90",
+    "toolA": "AI Tool 89",
+    "toolB": "AI Tool 90"
+  },
+  {
+    "slug": "ai-tool-90-vs-ai-tool-91",
+    "toolA": "AI Tool 90",
+    "toolB": "AI Tool 91"
+  },
+  {
+    "slug": "ai-tool-91-vs-ai-tool-92",
+    "toolA": "AI Tool 91",
+    "toolB": "AI Tool 92"
+  },
+  {
+    "slug": "ai-tool-92-vs-ai-tool-93",
+    "toolA": "AI Tool 92",
+    "toolB": "AI Tool 93"
+  },
+  {
+    "slug": "ai-tool-93-vs-ai-tool-94",
+    "toolA": "AI Tool 93",
+    "toolB": "AI Tool 94"
+  },
+  {
+    "slug": "ai-tool-94-vs-ai-tool-95",
+    "toolA": "AI Tool 94",
+    "toolB": "AI Tool 95"
+  },
+  {
+    "slug": "ai-tool-95-vs-ai-tool-96",
+    "toolA": "AI Tool 95",
+    "toolB": "AI Tool 96"
+  },
+  {
+    "slug": "ai-tool-96-vs-ai-tool-97",
+    "toolA": "AI Tool 96",
+    "toolB": "AI Tool 97"
+  },
+  {
+    "slug": "ai-tool-97-vs-ai-tool-98",
+    "toolA": "AI Tool 97",
+    "toolB": "AI Tool 98"
+  },
+  {
+    "slug": "ai-tool-98-vs-ai-tool-99",
+    "toolA": "AI Tool 98",
+    "toolB": "AI Tool 99"
+  },
+  {
+    "slug": "ai-tool-99-vs-ai-tool-100",
+    "toolA": "AI Tool 99",
+    "toolB": "AI Tool 100"
+  },
+  {
+    "slug": "ai-tool-100-vs-ai-tool-101",
+    "toolA": "AI Tool 100",
+    "toolB": "AI Tool 101"
+  },
+  {
+    "slug": "ai-tool-101-vs-ai-tool-102",
+    "toolA": "AI Tool 101",
+    "toolB": "AI Tool 102"
+  },
+  {
+    "slug": "ai-tool-102-vs-ai-tool-103",
+    "toolA": "AI Tool 102",
+    "toolB": "AI Tool 103"
+  },
+  {
+    "slug": "ai-tool-103-vs-ai-tool-104",
+    "toolA": "AI Tool 103",
+    "toolB": "AI Tool 104"
+  },
+  {
+    "slug": "ai-tool-104-vs-ai-tool-105",
+    "toolA": "AI Tool 104",
+    "toolB": "AI Tool 105"
+  },
+  {
+    "slug": "ai-tool-105-vs-ai-tool-106",
+    "toolA": "AI Tool 105",
+    "toolB": "AI Tool 106"
+  },
+  {
+    "slug": "ai-tool-106-vs-ai-tool-107",
+    "toolA": "AI Tool 106",
+    "toolB": "AI Tool 107"
+  },
+  {
+    "slug": "ai-tool-107-vs-ai-tool-108",
+    "toolA": "AI Tool 107",
+    "toolB": "AI Tool 108"
+  },
+  {
+    "slug": "ai-tool-108-vs-ai-tool-109",
+    "toolA": "AI Tool 108",
+    "toolB": "AI Tool 109"
+  },
+  {
+    "slug": "ai-tool-109-vs-ai-tool-110",
+    "toolA": "AI Tool 109",
+    "toolB": "AI Tool 110"
+  },
+  {
+    "slug": "ai-tool-110-vs-ai-tool-111",
+    "toolA": "AI Tool 110",
+    "toolB": "AI Tool 111"
+  },
+  {
+    "slug": "ai-tool-111-vs-ai-tool-112",
+    "toolA": "AI Tool 111",
+    "toolB": "AI Tool 112"
+  },
+  {
+    "slug": "ai-tool-112-vs-ai-tool-113",
+    "toolA": "AI Tool 112",
+    "toolB": "AI Tool 113"
+  },
+  {
+    "slug": "ai-tool-113-vs-ai-tool-114",
+    "toolA": "AI Tool 113",
+    "toolB": "AI Tool 114"
+  },
+  {
+    "slug": "ai-tool-114-vs-ai-tool-115",
+    "toolA": "AI Tool 114",
+    "toolB": "AI Tool 115"
+  },
+  {
+    "slug": "ai-tool-115-vs-ai-tool-116",
+    "toolA": "AI Tool 115",
+    "toolB": "AI Tool 116"
+  },
+  {
+    "slug": "ai-tool-116-vs-ai-tool-117",
+    "toolA": "AI Tool 116",
+    "toolB": "AI Tool 117"
+  },
+  {
+    "slug": "ai-tool-117-vs-ai-tool-118",
+    "toolA": "AI Tool 117",
+    "toolB": "AI Tool 118"
+  },
+  {
+    "slug": "ai-tool-118-vs-ai-tool-119",
+    "toolA": "AI Tool 118",
+    "toolB": "AI Tool 119"
+  },
+  {
+    "slug": "ai-tool-119-vs-ai-tool-120",
+    "toolA": "AI Tool 119",
+    "toolB": "AI Tool 120"
+  },
+  {
+    "slug": "ai-tool-120-vs-ai-tool-121",
+    "toolA": "AI Tool 120",
+    "toolB": "AI Tool 121"
+  },
+  {
+    "slug": "ai-tool-121-vs-ai-tool-122",
+    "toolA": "AI Tool 121",
+    "toolB": "AI Tool 122"
+  },
+  {
+    "slug": "ai-tool-122-vs-ai-tool-123",
+    "toolA": "AI Tool 122",
+    "toolB": "AI Tool 123"
+  },
+  {
+    "slug": "ai-tool-123-vs-ai-tool-124",
+    "toolA": "AI Tool 123",
+    "toolB": "AI Tool 124"
+  },
+  {
+    "slug": "ai-tool-124-vs-ai-tool-125",
+    "toolA": "AI Tool 124",
+    "toolB": "AI Tool 125"
+  },
+  {
+    "slug": "ai-tool-125-vs-ai-tool-126",
+    "toolA": "AI Tool 125",
+    "toolB": "AI Tool 126"
+  },
+  {
+    "slug": "ai-tool-126-vs-ai-tool-127",
+    "toolA": "AI Tool 126",
+    "toolB": "AI Tool 127"
+  },
+  {
+    "slug": "ai-tool-127-vs-ai-tool-128",
+    "toolA": "AI Tool 127",
+    "toolB": "AI Tool 128"
+  },
+  {
+    "slug": "ai-tool-128-vs-ai-tool-129",
+    "toolA": "AI Tool 128",
+    "toolB": "AI Tool 129"
+  },
+  {
+    "slug": "ai-tool-129-vs-ai-tool-130",
+    "toolA": "AI Tool 129",
+    "toolB": "AI Tool 130"
+  },
+  {
+    "slug": "ai-tool-130-vs-ai-tool-131",
+    "toolA": "AI Tool 130",
+    "toolB": "AI Tool 131"
+  },
+  {
+    "slug": "ai-tool-131-vs-ai-tool-132",
+    "toolA": "AI Tool 131",
+    "toolB": "AI Tool 132"
+  },
+  {
+    "slug": "ai-tool-132-vs-ai-tool-133",
+    "toolA": "AI Tool 132",
+    "toolB": "AI Tool 133"
+  },
+  {
+    "slug": "ai-tool-133-vs-ai-tool-134",
+    "toolA": "AI Tool 133",
+    "toolB": "AI Tool 134"
+  },
+  {
+    "slug": "ai-tool-134-vs-ai-tool-135",
+    "toolA": "AI Tool 134",
+    "toolB": "AI Tool 135"
+  },
+  {
+    "slug": "ai-tool-135-vs-ai-tool-136",
+    "toolA": "AI Tool 135",
+    "toolB": "AI Tool 136"
+  },
+  {
+    "slug": "ai-tool-136-vs-ai-tool-137",
+    "toolA": "AI Tool 136",
+    "toolB": "AI Tool 137"
+  },
+  {
+    "slug": "ai-tool-137-vs-ai-tool-138",
+    "toolA": "AI Tool 137",
+    "toolB": "AI Tool 138"
+  },
+  {
+    "slug": "ai-tool-138-vs-ai-tool-139",
+    "toolA": "AI Tool 138",
+    "toolB": "AI Tool 139"
+  },
+  {
+    "slug": "ai-tool-139-vs-ai-tool-140",
+    "toolA": "AI Tool 139",
+    "toolB": "AI Tool 140"
+  },
+  {
+    "slug": "ai-tool-140-vs-ai-tool-141",
+    "toolA": "AI Tool 140",
+    "toolB": "AI Tool 141"
+  },
+  {
+    "slug": "ai-tool-141-vs-ai-tool-142",
+    "toolA": "AI Tool 141",
+    "toolB": "AI Tool 142"
+  },
+  {
+    "slug": "ai-tool-142-vs-ai-tool-143",
+    "toolA": "AI Tool 142",
+    "toolB": "AI Tool 143"
+  },
+  {
+    "slug": "ai-tool-143-vs-ai-tool-144",
+    "toolA": "AI Tool 143",
+    "toolB": "AI Tool 144"
+  },
+  {
+    "slug": "ai-tool-144-vs-ai-tool-145",
+    "toolA": "AI Tool 144",
+    "toolB": "AI Tool 145"
+  },
+  {
+    "slug": "ai-tool-145-vs-ai-tool-146",
+    "toolA": "AI Tool 145",
+    "toolB": "AI Tool 146"
+  },
+  {
+    "slug": "ai-tool-146-vs-ai-tool-147",
+    "toolA": "AI Tool 146",
+    "toolB": "AI Tool 147"
+  },
+  {
+    "slug": "ai-tool-147-vs-ai-tool-148",
+    "toolA": "AI Tool 147",
+    "toolB": "AI Tool 148"
+  },
+  {
+    "slug": "ai-tool-148-vs-ai-tool-149",
+    "toolA": "AI Tool 148",
+    "toolB": "AI Tool 149"
+  },
+  {
+    "slug": "ai-tool-149-vs-ai-tool-150",
+    "toolA": "AI Tool 149",
+    "toolB": "AI Tool 150"
+  },
+  {
+    "slug": "ai-tool-150-vs-ai-tool-151",
+    "toolA": "AI Tool 150",
+    "toolB": "AI Tool 151"
+  },
+  {
+    "slug": "ai-tool-151-vs-ai-tool-152",
+    "toolA": "AI Tool 151",
+    "toolB": "AI Tool 152"
+  },
+  {
+    "slug": "ai-tool-152-vs-ai-tool-153",
+    "toolA": "AI Tool 152",
+    "toolB": "AI Tool 153"
+  },
+  {
+    "slug": "ai-tool-153-vs-ai-tool-154",
+    "toolA": "AI Tool 153",
+    "toolB": "AI Tool 154"
+  },
+  {
+    "slug": "ai-tool-154-vs-ai-tool-155",
+    "toolA": "AI Tool 154",
+    "toolB": "AI Tool 155"
+  },
+  {
+    "slug": "ai-tool-155-vs-ai-tool-156",
+    "toolA": "AI Tool 155",
+    "toolB": "AI Tool 156"
+  },
+  {
+    "slug": "ai-tool-156-vs-ai-tool-157",
+    "toolA": "AI Tool 156",
+    "toolB": "AI Tool 157"
+  },
+  {
+    "slug": "ai-tool-157-vs-ai-tool-158",
+    "toolA": "AI Tool 157",
+    "toolB": "AI Tool 158"
+  },
+  {
+    "slug": "ai-tool-158-vs-ai-tool-159",
+    "toolA": "AI Tool 158",
+    "toolB": "AI Tool 159"
+  },
+  {
+    "slug": "ai-tool-159-vs-ai-tool-160",
+    "toolA": "AI Tool 159",
+    "toolB": "AI Tool 160"
+  },
+  {
+    "slug": "ai-tool-160-vs-ai-tool-161",
+    "toolA": "AI Tool 160",
+    "toolB": "AI Tool 161"
+  },
+  {
+    "slug": "ai-tool-161-vs-ai-tool-162",
+    "toolA": "AI Tool 161",
+    "toolB": "AI Tool 162"
+  },
+  {
+    "slug": "ai-tool-162-vs-ai-tool-163",
+    "toolA": "AI Tool 162",
+    "toolB": "AI Tool 163"
+  },
+  {
+    "slug": "ai-tool-163-vs-ai-tool-164",
+    "toolA": "AI Tool 163",
+    "toolB": "AI Tool 164"
+  },
+  {
+    "slug": "ai-tool-164-vs-ai-tool-165",
+    "toolA": "AI Tool 164",
+    "toolB": "AI Tool 165"
+  },
+  {
+    "slug": "ai-tool-165-vs-ai-tool-166",
+    "toolA": "AI Tool 165",
+    "toolB": "AI Tool 166"
+  },
+  {
+    "slug": "ai-tool-166-vs-ai-tool-167",
+    "toolA": "AI Tool 166",
+    "toolB": "AI Tool 167"
+  },
+  {
+    "slug": "ai-tool-167-vs-ai-tool-168",
+    "toolA": "AI Tool 167",
+    "toolB": "AI Tool 168"
+  },
+  {
+    "slug": "ai-tool-168-vs-ai-tool-169",
+    "toolA": "AI Tool 168",
+    "toolB": "AI Tool 169"
+  },
+  {
+    "slug": "ai-tool-169-vs-ai-tool-170",
+    "toolA": "AI Tool 169",
+    "toolB": "AI Tool 170"
+  },
+  {
+    "slug": "ai-tool-170-vs-ai-tool-171",
+    "toolA": "AI Tool 170",
+    "toolB": "AI Tool 171"
+  },
+  {
+    "slug": "ai-tool-171-vs-ai-tool-172",
+    "toolA": "AI Tool 171",
+    "toolB": "AI Tool 172"
+  },
+  {
+    "slug": "ai-tool-172-vs-ai-tool-173",
+    "toolA": "AI Tool 172",
+    "toolB": "AI Tool 173"
+  },
+  {
+    "slug": "ai-tool-173-vs-ai-tool-174",
+    "toolA": "AI Tool 173",
+    "toolB": "AI Tool 174"
+  },
+  {
+    "slug": "ai-tool-174-vs-ai-tool-175",
+    "toolA": "AI Tool 174",
+    "toolB": "AI Tool 175"
+  },
+  {
+    "slug": "ai-tool-175-vs-ai-tool-176",
+    "toolA": "AI Tool 175",
+    "toolB": "AI Tool 176"
+  },
+  {
+    "slug": "ai-tool-176-vs-ai-tool-177",
+    "toolA": "AI Tool 176",
+    "toolB": "AI Tool 177"
+  },
+  {
+    "slug": "ai-tool-177-vs-ai-tool-178",
+    "toolA": "AI Tool 177",
+    "toolB": "AI Tool 178"
+  },
+  {
+    "slug": "ai-tool-178-vs-ai-tool-179",
+    "toolA": "AI Tool 178",
+    "toolB": "AI Tool 179"
+  },
+  {
+    "slug": "ai-tool-179-vs-ai-tool-180",
+    "toolA": "AI Tool 179",
+    "toolB": "AI Tool 180"
+  },
+  {
+    "slug": "ai-tool-180-vs-ai-tool-181",
+    "toolA": "AI Tool 180",
+    "toolB": "AI Tool 181"
+  },
+  {
+    "slug": "ai-tool-181-vs-ai-tool-182",
+    "toolA": "AI Tool 181",
+    "toolB": "AI Tool 182"
+  },
+  {
+    "slug": "ai-tool-182-vs-ai-tool-183",
+    "toolA": "AI Tool 182",
+    "toolB": "AI Tool 183"
+  },
+  {
+    "slug": "ai-tool-183-vs-ai-tool-184",
+    "toolA": "AI Tool 183",
+    "toolB": "AI Tool 184"
+  },
+  {
+    "slug": "ai-tool-184-vs-ai-tool-185",
+    "toolA": "AI Tool 184",
+    "toolB": "AI Tool 185"
+  },
+  {
+    "slug": "ai-tool-185-vs-ai-tool-186",
+    "toolA": "AI Tool 185",
+    "toolB": "AI Tool 186"
+  },
+  {
+    "slug": "ai-tool-186-vs-ai-tool-187",
+    "toolA": "AI Tool 186",
+    "toolB": "AI Tool 187"
+  },
+  {
+    "slug": "ai-tool-187-vs-ai-tool-188",
+    "toolA": "AI Tool 187",
+    "toolB": "AI Tool 188"
+  },
+  {
+    "slug": "ai-tool-188-vs-ai-tool-189",
+    "toolA": "AI Tool 188",
+    "toolB": "AI Tool 189"
+  },
+  {
+    "slug": "ai-tool-189-vs-ai-tool-190",
+    "toolA": "AI Tool 189",
+    "toolB": "AI Tool 190"
+  },
+  {
+    "slug": "ai-tool-190-vs-ai-tool-191",
+    "toolA": "AI Tool 190",
+    "toolB": "AI Tool 191"
+  },
+  {
+    "slug": "ai-tool-191-vs-ai-tool-192",
+    "toolA": "AI Tool 191",
+    "toolB": "AI Tool 192"
+  },
+  {
+    "slug": "ai-tool-192-vs-ai-tool-193",
+    "toolA": "AI Tool 192",
+    "toolB": "AI Tool 193"
+  },
+  {
+    "slug": "ai-tool-193-vs-ai-tool-194",
+    "toolA": "AI Tool 193",
+    "toolB": "AI Tool 194"
+  },
+  {
+    "slug": "ai-tool-194-vs-ai-tool-195",
+    "toolA": "AI Tool 194",
+    "toolB": "AI Tool 195"
+  },
+  {
+    "slug": "ai-tool-195-vs-ai-tool-196",
+    "toolA": "AI Tool 195",
+    "toolB": "AI Tool 196"
+  },
+  {
+    "slug": "ai-tool-196-vs-ai-tool-197",
+    "toolA": "AI Tool 196",
+    "toolB": "AI Tool 197"
+  },
+  {
+    "slug": "ai-tool-197-vs-ai-tool-198",
+    "toolA": "AI Tool 197",
+    "toolB": "AI Tool 198"
+  },
+  {
+    "slug": "ai-tool-198-vs-ai-tool-199",
+    "toolA": "AI Tool 198",
+    "toolB": "AI Tool 199"
+  },
+  {
+    "slug": "ai-tool-199-vs-ai-tool-200",
+    "toolA": "AI Tool 199",
+    "toolB": "AI Tool 200"
+  }
+]

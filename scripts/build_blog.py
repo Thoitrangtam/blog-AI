@@ -1,53 +1,42 @@
 import os
 import json
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# Load template
+with open("templates/post_template.html", "r", encoding="utf-8") as f:
+    template = f.read()
 
-data_path = os.path.join(BASE_DIR,"data","ai_tools.json")
-posts_dir = os.path.join(BASE_DIR,"posts")
+# Load header
+with open("includes/header.html", "r", encoding="utf-8") as f:
+    header = f.read()
 
-os.makedirs(posts_dir,exist_ok=True)
+# Load footer
+with open("includes/footer.html", "r", encoding="utf-8") as f:
+    footer = f.read()
 
-with open(data_path,"r",encoding="utf-8") as f:
-    tools=json.load(f)
+# Load blog data
+with open("data/blog_posts.json", "r", encoding="utf-8") as f:
+    posts = json.load(f)
 
-for tool in tools:
+for post in posts:
 
-    name=tool["name"]
+    title = post["title"]
+    slug = post["slug"]
+    content = post["content"]
+    description = post["description"]
 
-    html=f"""
-    <html>
-    <head>
-    <title>{name} Review</title>
-    </head>
+    html = template
 
-    <body>
+    html = html.replace("{{title}}", title)
+    html = html.replace("{{content}}", content)
+    html = html.replace("{{description}}", description)
+    html = html.replace("{{header}}", header)
+    html = html.replace("{{footer}}", footer)
 
-    <h1>{name} Review</h1>
+    folder = f"blog/{slug}"
 
-    <p>{tool["description"]}</p>
+    os.makedirs(folder, exist_ok=True)
 
-    <h2>Features</h2>
-    <p>{name} offers powerful AI capabilities.</p>
-
-    <h2>Pros</h2>
-    <ul>
-    <li>Easy to use</li>
-    <li>Powerful AI</li>
-    </ul>
-
-    <h2>Cons</h2>
-    <ul>
-    <li>Free plan limited</li>
-    </ul>
-
-    </body>
-    </html>
-    """
-
-    filename=name.lower().replace(" ","-")+".html"
-
-    with open(os.path.join(posts_dir,filename),"w",encoding="utf-8") as f:
+    with open(f"{folder}/index.html", "w", encoding="utf-8") as f:
         f.write(html)
 
-print("Blog posts generated")
+print("Blog pages created!")
