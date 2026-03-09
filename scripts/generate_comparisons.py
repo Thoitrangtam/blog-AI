@@ -1,17 +1,12 @@
 import json
+import itertools
 
-tools=json.load(open("data/tools.json"))
+tools = json.load(open("data/tools.json"))
 
-comparisons=[]
+pairs = itertools.combinations(tools,2)
 
-for i in range(len(tools)-1):
+for a,b in pairs:
 
-    comparisons.append({
+ slug = f"{a['slug']}-vs-{b['slug']}"
 
-        "slug":f"{tools[i]['slug']}-vs-{tools[i+1]['slug']}",
-        "toolA":tools[i]['name'],
-        "toolB":tools[i+1]['name']
-
-    })
-
-open("data/comparisons.json","w").write(json.dumps(comparisons,indent=2))
+ print(slug)
