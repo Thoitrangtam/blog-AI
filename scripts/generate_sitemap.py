@@ -1,6 +1,6 @@
 import os
 
-BASE="https://yourdomain.com"
+BASE="https://tamnguyenai.com"
 
 urls=[]
 

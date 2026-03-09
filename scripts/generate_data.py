@@ -5,28 +5,28 @@ tools=[]
 comparisons=[]
 categories=["writing","seo","productivity","marketing"]
 
-for i in range(1,1001):
+for i in range(1,1201):
 
     posts.append({
 
         "title":f"Best AI Tools Guide {i}",
         "slug":f"best-ai-tools-{i}",
-        "content":"Guide about AI tools.",
+        "content":"Complete guide about AI tools.",
         "category":categories[i%4]
 
     })
 
-for i in range(1,201):
+for i in range(1,301):
 
     tools.append({
 
         "name":f"AI Tool {i}",
         "slug":f"ai-tool-{i}",
-        "description":"Free AI tool"
+        "description":"Free AI productivity tool"
 
     })
 
-for i in range(1,200):
+for i in range(1,300):
 
     comparisons.append({
 

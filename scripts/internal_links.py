@@ -1,36 +1,29 @@
 import os
 
-blog_dir = "blog"
+folder="blog"
 
-posts = []
+posts=[]
 
-for folder in os.listdir(blog_dir):
+for root,dirs,files in os.walk(folder):
 
-    path = os.path.join(blog_dir, folder, "index.html")
+    for f in files:
 
-    if os.path.exists(path):
-        posts.append(folder)
+        if f=="index.html":
+            posts.append(os.path.join(root,f))
 
-for slug in posts:
 
-    path = f"blog/{slug}/index.html"
+for p in posts:
 
-    with open(path,"r",encoding="utf-8") as f:
-        html = f.read()
+    html=open(p).read()
 
-    links = "<h3>Related Articles</h3><ul>"
+    for target in posts:
 
-    for other in posts[:5]:
+        if target!=p:
 
-        if other != slug:
+            slug=target.split("/")[-2]
 
-            links += f'<li><a href="/blog/{other}/">{other.replace("-"," ").title()}</a></li>'
+            html=html.replace(slug,f'<a href="/blog/{slug}/">{slug}</a>',1)
 
-    links += "</ul>"
-
-    html = html.replace("</article>", links + "</article>")
-
-    with open(path,"w",encoding="utf-8") as f:
-        f.write(html)
+    open(p,"w").write(html)
 
 print("Internal links added")
