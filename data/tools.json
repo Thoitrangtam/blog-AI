@@ -3,7 +3,7 @@
   "name":"ChatGPT",
   "slug":"chatgpt",
   "category":"ai-writing",
-  "description":"Advanced AI assistant for writing, coding and research",
+  "description":"AI chatbot for writing coding and research",
   "website":"https://chat.openai.com"
  },
 
@@ -11,7 +11,7 @@
   "name":"Gemini",
   "slug":"gemini",
   "category":"ai-writing",
-  "description":"Google AI assistant integrated with Google ecosystem",
+  "description":"Google AI assistant",
   "website":"https://gemini.google.com"
  },
 
@@ -19,7 +19,7 @@
   "name":"Midjourney",
   "slug":"midjourney",
   "category":"ai-image",
-  "description":"AI image generation tool creating high quality artwork",
+  "description":"AI image generation platform",
   "website":"https://midjourney.com"
  }
 ]

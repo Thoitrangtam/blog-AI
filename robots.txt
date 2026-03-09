@@ -1,11 +1,4 @@
 User-agent: *
 Allow: /
+
 Sitemap: https://tamnguyenai.com/sitemap.xml
-sitemap.xml
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-<url>
-<loc>https://tamnguyenai.com/</loc>
-</url>
-
-</urlset>

@@ -2,28 +2,32 @@ fetch('/data/tools.json')
 .then(res => res.json())
 .then(data => {
 
- let container = document.getElementById("tools-list");
+const container = document.getElementById("tools-list")
 
- data.forEach(tool => {
+data.forEach(tool=>{
 
-  let card = document.createElement("div");
+const card = document.createElement("div")
 
-  card.innerHTML = `
-  <h3>
-  <a href="/tools/${tool.slug}/">
-  ${tool.name}
-  </a>
-  </h3>
+card.className="tool-card"
 
-  <p>${tool.description}</p>
+card.innerHTML=`
 
-  <a href="${tool.website}" target="_blank">
-  Visit Tool
-  </a>
-  `;
+<h3>
+<a href="/tools/${tool.slug}/">
+${tool.name}
+</a>
+</h3>
 
-  container.appendChild(card);
+<p>${tool.description}</p>
 
- });
+<a href="${tool.website}" target="_blank">
+Visit Tool
+</a>
 
-});
+`
+
+container.appendChild(card)
+
+})
+
+})

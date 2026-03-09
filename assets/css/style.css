@@ -1,16 +1,26 @@
-css/style.css
 body{
 font-family:Arial;
 margin:40px;
+background:#fafafa;
+}
+
+header{
+margin-bottom:40px;
 }
 
 .tool-card{
-border:1px solid #ddd;
+background:white;
+border:1px solid #eee;
 padding:20px;
+border-radius:10px;
 margin-bottom:20px;
-border-radius:8px;
 }
 
-h1{
-font-size:32px;
+a{
+color:#2563eb;
+text-decoration:none;
+}
+
+a:hover{
+text-decoration:underline;
 }
