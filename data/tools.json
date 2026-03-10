@@ -1,227 +1,41 @@
-[
+{
+ "tools":[
+
 {
 "name":"ChatGPT",
 "slug":"chatgpt",
+"description":"AI chatbot for writing, coding and productivity.",
 "category":"AI Chatbot",
-"website":"https://chat.openai.com",
-"logo":"https://logo.clearbit.com/openai.com",
-"description":"ChatGPT is an advanced AI chatbot developed by OpenAI that helps users generate content, answer questions and automate tasks using natural language."
-},
-
-{
-"name":"Claude",
-"slug":"claude",
-"category":"AI Chatbot",
-"website":"https://claude.ai",
-"logo":"https://logo.clearbit.com/anthropic.com",
-"description":"Claude is an AI assistant created by Anthropic designed for safe and helpful conversations, writing, coding and research."
-},
-
-{
-"name":"Gemini",
-"slug":"gemini",
-"category":"AI Chatbot",
-"website":"https://gemini.google.com",
-"logo":"https://logo.clearbit.com/google.com",
-"description":"Gemini is Google's AI assistant that helps users with writing, research, coding and productivity tasks."
-},
-
-{
-"name":"Perplexity AI",
-"slug":"perplexity",
-"category":"AI Search",
-"website":"https://perplexity.ai",
-"logo":"https://logo.clearbit.com/perplexity.ai",
-"description":"Perplexity AI is an AI-powered search engine that provides accurate answers with real-time sources."
-},
-
-{
-"name":"Poe",
-"slug":"poe",
-"category":"AI Chatbot",
-"website":"https://poe.com",
-"logo":"https://logo.clearbit.com/poe.com",
-"description":"Poe is an AI chat platform that allows users to interact with multiple AI models in one interface."
+"domain":"openai.com",
+"affiliate":"https://chat.openai.com"
 },
 
 {
 "name":"Midjourney",
 "slug":"midjourney",
-"category":"AI Image Generator",
-"website":"https://midjourney.com",
-"logo":"https://logo.clearbit.com/midjourney.com",
-"description":"Midjourney is one of the most popular AI image generators that creates artistic and photorealistic images from text prompts."
-},
-
-{
-"name":"DALL-E",
-"slug":"dalle",
-"category":"AI Image Generator",
-"website":"https://openai.com/dall-e",
-"logo":"https://logo.clearbit.com/openai.com",
-"description":"DALL-E is an AI image generation model developed by OpenAI that can create detailed images from text descriptions."
-},
-
-{
-"name":"Leonardo AI",
-"slug":"leonardo-ai",
-"category":"AI Image Generator",
-"website":"https://leonardo.ai",
-"logo":"https://logo.clearbit.com/leonardo.ai",
-"description":"Leonardo AI is a powerful AI image generator used for creating game assets, illustrations and artwork."
-},
-
-{
-"name":"Ideogram",
-"slug":"ideogram",
-"category":"AI Image Generator",
-"website":"https://ideogram.ai",
-"logo":"https://logo.clearbit.com/ideogram.ai",
-"description":"Ideogram is an AI image generator known for generating images with high quality typography and text rendering."
-},
-
-{
-"name":"Playground AI",
-"slug":"playground-ai",
-"category":"AI Image Generator",
-"website":"https://playgroundai.com",
-"logo":"https://logo.clearbit.com/playgroundai.com",
-"description":"Playground AI allows users to generate and edit images using powerful AI models."
+"description":"AI image generator creating stunning artwork from prompts.",
+"category":"AI Image",
+"domain":"midjourney.com",
+"affiliate":"https://midjourney.com"
 },
 
 {
 "name":"Runway",
 "slug":"runway",
+"description":"AI video creation and editing platform.",
 "category":"AI Video",
-"website":"https://runwayml.com",
-"logo":"https://logo.clearbit.com/runwayml.com",
-"description":"Runway is an AI video generation platform used for creating and editing videos with artificial intelligence."
+"domain":"runwayml.com",
+"affiliate":"https://runwayml.com"
 },
 
 {
-"name":"Pika",
-"slug":"pika",
-"category":"AI Video",
-"website":"https://pika.art",
-"logo":"https://logo.clearbit.com/pika.art",
-"description":"Pika is an AI video generator that allows users to create cinematic videos from text prompts."
-},
-
-{
-"name":"Synthesia",
-"slug":"synthesia",
-"category":"AI Video",
-"website":"https://synthesia.io",
-"logo":"https://logo.clearbit.com/synthesia.io",
-"description":"Synthesia is an AI video creation platform that generates videos with realistic AI avatars."
-},
-
-{
-"name":"HeyGen",
-"slug":"heygen",
-"category":"AI Video",
-"website":"https://heygen.com",
-"logo":"https://logo.clearbit.com/heygen.com",
-"description":"HeyGen helps users create AI avatar videos for marketing, training and social media."
-},
-
-{
-"name":"InVideo AI",
-"slug":"invideo",
-"category":"AI Video",
-"website":"https://invideo.io",
-"logo":"https://logo.clearbit.com/invideo.io",
-"description":"InVideo AI is an AI video generator designed for marketers and content creators."
-},
-
-{
-"name":"Jasper AI",
-"slug":"jasper",
-"category":"AI Writing",
-"website":"https://jasper.ai",
-"logo":"https://logo.clearbit.com/jasper.ai",
-"description":"Jasper AI is an AI writing assistant used by marketers to generate blog posts, ads and marketing copy."
-},
-
-{
-"name":"Copy AI",
+"name":"Copy.ai",
 "slug":"copy-ai",
+"description":"AI copywriting tool for marketing and blogs.",
 "category":"AI Writing",
-"website":"https://copy.ai",
-"logo":"https://logo.clearbit.com/copy.ai",
-"description":"Copy AI is an AI writing platform that helps generate marketing content, emails and product descriptions."
-},
-
-{
-"name":"Writesonic",
-"slug":"writesonic",
-"category":"AI Writing",
-"website":"https://writesonic.com",
-"logo":"https://logo.clearbit.com/writesonic.com",
-"description":"Writesonic is an AI content generator designed for SEO articles and marketing copy."
-},
-
-{
-"name":"Rytr",
-"slug":"rytr",
-"category":"AI Writing",
-"website":"https://rytr.me",
-"logo":"https://logo.clearbit.com/rytr.me",
-"description":"Rytr is an affordable AI writing assistant that helps generate content quickly."
-},
-
-{
-"name":"Anyword",
-"slug":"anyword",
-"category":"AI Writing",
-"website":"https://anyword.com",
-"logo":"https://logo.clearbit.com/anyword.com",
-"description":"Anyword is an AI writing platform that optimizes marketing copy using predictive performance scoring."
-},
-
-{
-"name":"Notion AI",
-"slug":"notion-ai",
-"category":"AI Productivity",
-"website":"https://notion.so",
-"logo":"https://logo.clearbit.com/notion.so",
-"description":"Notion AI enhances productivity by helping users write, summarize and organize information."
-},
-
-{
-"name":"Taskade",
-"slug":"taskade",
-"category":"AI Productivity",
-"website":"https://taskade.com",
-"logo":"https://logo.clearbit.com/taskade.com",
-"description":"Taskade is an AI productivity platform for task management and team collaboration."
-},
-
-{
-"name":"Otter AI",
-"slug":"otter",
-"category":"AI Productivity",
-"website":"https://otter.ai",
-"logo":"https://logo.clearbit.com/otter.ai",
-"description":"Otter AI automatically transcribes meetings and conversations using AI."
-},
-
-{
-"name":"Fireflies AI",
-"slug":"fireflies",
-"category":"AI Productivity",
-"website":"https://fireflies.ai",
-"logo":"https://logo.clearbit.com/fireflies.ai",
-"description":"Fireflies AI records and transcribes meetings while providing searchable notes."
-},
-
-{
-"name":"Mem AI",
-"slug":"mem-ai",
-"category":"AI Productivity",
-"website":"https://mem.ai",
-"logo":"https://logo.clearbit.com/mem.ai",
-"description":"Mem AI is an intelligent note taking tool that organizes information automatically."
+"domain":"copy.ai",
+"affiliate":"https://copy.ai"
 }
 
-]
+ ]
+}
