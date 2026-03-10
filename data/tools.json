@@ -4,38 +4,38 @@
 {
 "name":"ChatGPT",
 "slug":"chatgpt",
+"domain":"openai.com",
 "description":"AI chatbot for writing, coding and productivity.",
 "category":"AI Chatbot",
-"domain":"openai.com",
 "affiliate":"https://chat.openai.com"
 },
 
 {
 "name":"Midjourney",
 "slug":"midjourney",
-"description":"AI image generator creating stunning artwork from prompts.",
-"category":"AI Image",
 "domain":"midjourney.com",
+"description":"AI image generator creating stunning artwork.",
+"category":"AI Image",
 "affiliate":"https://midjourney.com"
 },
 
 {
 "name":"Runway",
 "slug":"runway",
+"domain":"runwayml.com",
 "description":"AI video creation and editing platform.",
 "category":"AI Video",
-"domain":"runwayml.com",
 "affiliate":"https://runwayml.com"
 },
 
 {
 "name":"Copy.ai",
-"slug":"copy-ai",
+"slug":"copyai",
+"domain":"copy.ai",
 "description":"AI copywriting tool for marketing and blogs.",
 "category":"AI Writing",
-"domain":"copy.ai",
 "affiliate":"https://copy.ai"
 }
 
- ]
+]
 }
