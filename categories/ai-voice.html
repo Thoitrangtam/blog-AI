@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>AI Voice Tools – Best AI Voice Generators</title>
+
+<meta name="description" content="Discover the best AI writing tools for content creation, blogging, copywriting and marketing. Compare the top AI writing software.">
+
+<link rel="canonical" href="https://tamnguyenai.com/categories/ai-writing.html">
+
+<meta name="robots" content="index,follow">
+
+<style>
+
+body{
+font-family:Arial;
+margin:0;
+background:#f5f7fb;
+}
+
+header{
+background:white;
+padding:20px 40px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+box-shadow:0 2px 6px rgba(0,0,0,0.05);
+}
+
+.logo{
+font-weight:bold;
+font-size:22px;
+}
+
+nav a{
+margin-left:20px;
+text-decoration:none;
+color:#333;
+font-weight:600;
+}
+
+.hero{
+text-align:center;
+padding:60px 20px;
+}
+
+.hero h1{
+font-size:36px;
+}
+
+.section{
+padding:40px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fill,minmax(220px,1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:10px;
+text-align:center;
+box-shadow:0 4px 12px rgba(0,0,0,0.05);
+}
+
+.card img{
+width:50px;
+height:50px;
+}
+
+.card h3{
+margin:12px 0;
+}
+
+.card p{
+font-size:14px;
+color:#666;
+}
+
+.visit{
+display:inline-block;
+margin-top:10px;
+background:#4f46e5;
+color:white;
+padding:8px 16px;
+border-radius:6px;
+text-decoration:none;
+}
+
+.content{
+max-width:900px;
+margin:auto;
+padding:40px;
+line-height:1.7;
+}
+
+footer{
+text-align:center;
+padding:40px;
+color:#777;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">AI Tools Directory</div>
+
+<nav>
+
+<a href="/">Home</a>
+<a href="/tools/">Tools</a>
+<a href="/categories/">Categories</a>
+
+</nav>
+
+</header>
+
+<section class="hero">
+
+<h1>Best AI Writing Tools</h1>
+
+<p>Explore the best AI writing tools for bloggers, marketers and businesses.</p>
+
+</section>
+
+<section class="section">
+
+<div class="grid" id="tools"></div>
+
+</section>
+
+<section class="content">
+
+<h2>What Are AI Writing Tools?</h2>
+
+<p>
+AI writing tools use artificial intelligence to help create content faster and more efficiently. 
+These tools can generate blog posts, marketing copy, product descriptions and social media content.
+</p>
+
+<h2>Benefits of AI Writing Software</h2>
+
+<ul>
+<li>Generate content faster</li>
+<li>Improve grammar and clarity</li>
+<li>Save time for marketers</li>
+<li>Increase productivity</li>
+</ul>
+
+<h2>Popular AI Writing Tools</h2>
+
+<p>
+Popular AI writing tools include Jasper, Copy AI, Writesonic and Rytr. 
+Each tool offers unique features for content creators and businesses.
+</p>
+
+</section>
+
+<footer>
+
+<p>© 2026 AI Tools Directory</p>
+
+</footer>
+
+<script>
+
+async function loadTools(){
+
+const res = await fetch("/data/tools.json")
+
+const tools = await res.json()
+
+const writingTools = tools.filter(t => t.category === "ai-voice")
+
+const container = document.getElementById("tools")
+
+writingTools.forEach(tool => {
+
+const div = document.createElement("div")
+
+div.className = "card"
+
+div.innerHTML = `
+
+<img src="https://logo.clearbit.com/${new URL(tool.url).hostname}">
+
+<h3>${tool.name}</h3>
+
+<p>${tool.description}</p>
+
+<a class="visit" href="/tools/${tool.slug}.html">View Tool</a>
+
+`
+
+container.appendChild(div)
+
+})
+
+}
+
+loadTools()
+
+</script>
+
+<script type="application/ld+json">
+
+{
+"@context":"https://schema.org",
+"@type":"CollectionPage",
+"name":"AI Voice Tools",
+"url":"https://tamnguyenai.com/categories/ai-voice.html"
+}
+
+</script>
+
+</body>
+
+</html>

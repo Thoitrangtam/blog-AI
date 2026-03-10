@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="en">
+
 <head>
 
 <meta charset="UTF-8">
-<title id="toolTitle">AI Tool</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta name="description" id="toolDescription">
+<title>AI Tool</title>
 
-<link rel="stylesheet" href="/assets/css/style.css">
+<link rel="stylesheet" href="/style.css">
 
 </head>
 
@@ -15,49 +17,31 @@
 
 <header>
 
-<h1 id="name"></h1>
+<h2>AI Tools Directory</h2>
 
-<p id="description"></p>
-
-<a id="visitBtn" target="_blank">Visit Official Website</a>
+<a href="/">Home</a> <a href="/tools/">Tools</a>
 
 </header>
 
-<section>
+<main class="tool-page">
 
-<h2>Tool Details</h2>
+<img id="tool-logo" width="80">
 
-<ul>
+<h1 id="tool-name"></h1>
 
-<li><strong>Category:</strong> <span id="category"></span></li>
+<p id="tool-description"></p>
 
-</ul>
+<p>
+Category:
+<strong id="tool-category"></strong>
+</p>
 
-</section>
+<a id="tool-link" target="_blank">Visit Official Website</a>
 
-<script>
+</main>
 
-const params = new URLSearchParams(window.location.search)
-
-const slug = params.get("tool")
-
-fetch("/data/tools.json")
-.then(res => res.json())
-.then(data => {
-
-const tool = data.find(t => t.slug === slug)
-
-document.getElementById("name").innerText = tool.name
-document.getElementById("description").innerText = tool.description
-document.getElementById("category").innerText = tool.category
-
-document.getElementById("visitBtn").href = tool.url
-
-document.title = tool.name + " | AI Tool"
-
-})
-
-</script>
+<script src="/scripts/tools.js"></script>
 
 </body>
+
 </html>
