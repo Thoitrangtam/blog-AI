@@ -1,48 +1,43 @@
-let allTools = []
+let allTools = [];
 
+async function loadTools() {
 
-async function loadTools(){
+const container = document.getElementById("tools-container");
 
-const container =
-document.getElementById("tools-container")
+if (!container) return;
 
-if(!container) return
+try {
 
+const res = await fetch("data/tools.json");
+const data = await res.json();
 
-const res =
-await fetch("/data/tools.json")
+allTools = data.tools;
 
-const data =
-await res.json()
+renderTools(allTools);
 
-allTools = data.tools
+} catch (error) {
 
-renderTools(allTools)
+console.error("Error loading tools:", error);
 
 }
 
+}
 
+function renderTools(tools) {
 
-function renderTools(tools){
+const container = document.getElementById("tools-container");
 
-const container =
-document.getElementById("tools-container")
+container.innerHTML = "";
 
-container.innerHTML = ""
+tools.forEach(tool => {
 
-tools.forEach(tool=>{
-
-const logo =
-`https://www.google.com/s2/favicons?sz=128&domain=${tool.domain}`
+const logo = "https://www.google.com/s2/favicons?sz=128&domain=" + tool.domain;
 
 container.innerHTML += `
 
 <div class="tool-card">
 
-<img
-src="${logo}"
-class="tool-logo"
->
+<img src="${logo}" class="tool-logo">
 
 <h3>${tool.name}</h3>
 
@@ -50,48 +45,31 @@ class="tool-logo"
 
 <div class="tool-buttons">
 
-<a href="/tools/tool.html?tool=${tool.slug}" class="btn-view">
-View
-</a>
-
-<a href="${tool.affiliate}" target="_blank" class="btn-visit">
-Visit
-</a>
+<a href="${tool.affiliate}" target="_blank" class="btn-visit">Visit</a>
 
 </div>
 
 </div>
 
-`
+`;
 
-})
+});
 
 }
 
+function searchTools() {
 
+const keyword = document.getElementById("tool-search").value.toLowerCase();
 
-function searchTools(){
-
-const keyword =
-document.getElementById("tool-search").value.toLowerCase()
-
-const filtered =
-allTools.filter(tool =>
+const filtered = allTools.filter(tool =>
 
 tool.name.toLowerCase().includes(keyword) ||
-
 tool.description.toLowerCase().includes(keyword)
 
-)
+);
 
-renderTools(filtered)
+renderTools(filtered);
 
 }
 
-
-
-document.addEventListener("DOMContentLoaded",()=>{
-
-loadTools()
-
-})
+document.addEventListener("DOMContentLoaded", loadTools);
