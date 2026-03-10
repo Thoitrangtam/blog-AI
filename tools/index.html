@@ -2,25 +2,104 @@
 <html>
 <head>
 
+<meta charset="UTF-8">
 <title>AI Tools Directory</title>
 
+<style>
+
+body{
+font-family:Arial;
+background:#f4f6fb;
+margin:40px;
+}
+
+h1{
+font-size:32px;
+}
+
+#search{
+padding:10px;
+width:300px;
+margin-bottom:30px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fill,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 2px 6px rgba(0,0,0,0.08);
+}
+
+.card h3{
+margin-top:0;
+}
+
+.card a{
+display:inline-block;
+margin-top:10px;
+text-decoration:none;
+color:white;
+background:#4f46e5;
+padding:8px 14px;
+border-radius:6px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>AI Tools Directory</h1>
+
+<p>Find the best AI tools for productivity</p>
+
+<input id="search" placeholder="Search AI tools...">
+
+<div class="grid" id="tools"></div>
+
 <script>
+
+let toolsData=[]
 
 async function loadTools(){
 
 const res = await fetch("/data/tools.json")
-const tools = await res.json()
+toolsData = await res.json()
 
-const container = document.getElementById("tools")
+renderTools(toolsData)
 
-tools.forEach(tool => {
+}
 
-const card = document.createElement("div")
+function renderTools(list){
 
-card.innerHTML = `
+const container=document.getElementById("tools")
+container.innerHTML=""
+
+list.forEach(tool=>{
+
+const card=document.createElement("div")
+
+card.className="card"
+
+card.innerHTML=`
+
 <h3>${tool.name}</h3>
+
 <p>${tool.description}</p>
-<a href="/tools/tool.html?tool=${tool.slug}">View Tool</a>
+
+<p><b>${tool.category}</b></p>
+
+<a href="/tools/tool.html?tool=${tool.slug}">
+View Tool
+</a>
+
 `
 
 container.appendChild(card)
@@ -29,17 +108,25 @@ container.appendChild(card)
 
 }
 
-window.onload = loadTools
+document.getElementById("search").addEventListener("input",function(){
+
+const keyword=this.value.toLowerCase()
+
+const filtered=toolsData.filter(t=>
+
+t.name.toLowerCase().includes(keyword) ||
+
+t.category.toLowerCase().includes(keyword)
+
+)
+
+renderTools(filtered)
+
+})
+
+loadTools()
 
 </script>
-
-</head>
-
-<body>
-
-<h1>AI Tools Directory</h1>
-
-<div id="tools"></div>
 
 </body>
 </html>
