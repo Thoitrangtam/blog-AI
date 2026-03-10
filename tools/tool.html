@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+<title id="toolTitle">AI Tool</title>
+
+<meta name="description" id="toolDescription">
+
+<link rel="stylesheet" href="/assets/css/style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h1 id="name"></h1>
+
+<p id="description"></p>
+
+<a id="visitBtn" target="_blank">Visit Official Website</a>
+
+</header>
+
+<section>
+
+<h2>Tool Details</h2>
+
+<ul>
+
+<li><strong>Category:</strong> <span id="category"></span></li>
+
+</ul>
+
+</section>
+
+<script>
+
+const params = new URLSearchParams(window.location.search)
+
+const slug = params.get("tool")
+
+fetch("/data/tools.json")
+.then(res => res.json())
+.then(data => {
+
+const tool = data.find(t => t.slug === slug)
+
+document.getElementById("name").innerText = tool.name
+document.getElementById("description").innerText = tool.description
+document.getElementById("category").innerText = tool.category
+
+document.getElementById("visitBtn").href = tool.url
+
+document.title = tool.name + " | AI Tool"
+
+})
+
+</script>
+
+</body>
+</html>

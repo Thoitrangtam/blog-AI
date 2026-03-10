@@ -1,8 +1,10 @@
-fetch('/data/tools.json')
+fetch('data/tools.json')
 .then(res => res.json())
 .then(data => {
 
 const container = document.getElementById("tools-list")
+
+container.innerHTML=""
 
 data.forEach(tool=>{
 
@@ -13,7 +15,7 @@ card.className="tool-card"
 card.innerHTML=`
 
 <h3>
-<a href="/tools/${tool.slug}/">
+<a href="tools/${tool.slug}/">
 ${tool.name}
 </a>
 </h3>

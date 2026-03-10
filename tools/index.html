@@ -1,29 +1,45 @@
-fetch('/data/tools.json')
-.then(res => res.json())
-.then(data => {
+<!DOCTYPE html>
+<html>
+<head>
 
- const container = document.getElementById("tools-list")
+<title>AI Tools Directory</title>
 
- data.forEach(tool => {
+<script>
 
-  const card = document.createElement("div")
+async function loadTools(){
 
-  card.className = "tool-card"
+const res = await fetch("/data/tools.json")
+const tools = await res.json()
 
-  card.innerHTML = `
+const container = document.getElementById("tools")
 
-  <h3>
-  <a href="/tools/${tool.slug}/">${tool.name}</a>
-  </h3>
+tools.forEach(tool => {
 
-  <p>${tool.description}</p>
+const card = document.createElement("div")
 
-  <a href="${tool.website}" target="_blank">Visit</a>
+card.innerHTML = `
+<h3>${tool.name}</h3>
+<p>${tool.description}</p>
+<a href="/tools/tool.html?tool=${tool.slug}">View Tool</a>
+`
 
-  `
-
-  container.appendChild(card)
-
- })
+container.appendChild(card)
 
 })
+
+}
+
+window.onload = loadTools
+
+</script>
+
+</head>
+
+<body>
+
+<h1>AI Tools Directory</h1>
+
+<div id="tools"></div>
+
+</body>
+</html>
