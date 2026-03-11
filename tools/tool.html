@@ -1,12 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-
-<title id="tool-title">AI Tool</title>
+<title>AI Tool</title>
 
 <link rel="stylesheet" href="/css/style.css">
 
@@ -14,36 +11,45 @@
 
 <body>
 
+<div class="tool-page">
 
-<header class="header">
+<img id="logo">
 
-<div class="container">
+<h1 id="name"></h1>
 
-<div class="logo">
-AI Tools Directory
-</div>
+<p id="desc"></p>
 
-<nav class="nav">
+<div id="rating"></div>
 
-<a href="/">Home</a>
-
-</nav>
+<a id="visit" target="_blank" class="visit-btn">Visit Tool</a>
 
 </div>
 
-</header>
+<script>
 
+async function loadTool(){
 
+const params = new URLSearchParams(location.search)
 
-<section class="container">
+const slug = params.get("tool")
 
-<div id="tool-page"></div>
+const res = await fetch("/data/tools.json")
 
-</section>
+const tools = await res.json()
 
+const tool = tools.find(t=>t.slug===slug)
 
+document.getElementById("logo").src = tool.logo
+document.getElementById("name").innerText = tool.name
+document.getElementById("desc").innerText = tool.description
+document.getElementById("rating").innerText = "⭐ "+tool.rating
+document.getElementById("visit").href = tool.affiliate
 
-<script src="/js/tools.js"></script>
+}
+
+loadTool()
+
+</script>
 
 </body>
 

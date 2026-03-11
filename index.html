@@ -1,75 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>Best AI Tools Directory</title>
 
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="/css/style.css">
 
 </head>
 
-
 <body>
 
-<header class="header">
+<header>
 
-<div class="container">
-
-<div class="logo">AI Tools</div>
+<h2>AI Tools</h2>
 
 <nav>
-
 <a href="/">Home</a>
-<a href="#">Categories</a>
-<a href="#">Submit Tool</a>
-
+<a href="/category.html">Categories</a>
 </nav>
 
-</div>
-
 </header>
-
 
 <section class="hero">
 
 <h1>Discover The Best AI Tools</h1>
 
-<p>
-Explore the latest AI tools for writing, design, video and productivity.
-</p>
+<p>Explore AI tools for writing, design, video and productivity.</p>
 
-<input
-type="text"
-id="tool-search"
-placeholder="Search AI tools..."
-onkeyup="searchTools()"
-/>
+<input id="searchInput" placeholder="Search AI tools...">
 
 </section>
 
+<section class="tools container">
 
-<section class="container">
+<h2>Latest AI Tools</h2>
 
-<h2 class="section-title">Latest AI Tools</h2>
-
-<div id="tools-container" class="tools-grid"></div>
+<div id="toolsContainer" class="tools-grid"></div>
 
 </section>
-
-
-<footer>
-
-<div class="container">
-
-<p>© 2026 AI Tools Directory</p>
-
-</div>
-
-</footer>
 
 <script src="/js/tools.js"></script>
 

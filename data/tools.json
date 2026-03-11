@@ -1,41 +1,38 @@
-{
- "tools":[
-
-{
-"name":"ChatGPT",
-"slug":"chatgpt",
-"domain":"openai.com",
-"description":"AI chatbot for writing, coding and productivity.",
-"category":"AI Chatbot",
-"affiliate":"https://chat.openai.com"
-},
-
-{
-"name":"Midjourney",
-"slug":"midjourney",
-"domain":"midjourney.com",
-"description":"AI image generator creating stunning artwork.",
-"category":"AI Image",
-"affiliate":"https://midjourney.com"
-},
-
-{
-"name":"Runway",
-"slug":"runway",
-"domain":"runwayml.com",
-"description":"AI video creation and editing platform.",
-"category":"AI Video",
-"affiliate":"https://runwayml.com"
-},
-
-{
-"name":"Copy.ai",
-"slug":"copyai",
-"domain":"copy.ai",
-"description":"AI copywriting tool for marketing and blogs.",
-"category":"AI Writing",
-"affiliate":"https://copy.ai"
-}
-
+[
+  {
+    "name": "ChatGPT",
+    "slug": "chatgpt",
+    "category": "writing",
+    "logo": "/images/tools/chatgpt.png",
+    "description": "AI chatbot for writing, coding and productivity.",
+    "rating": 4.9,
+    "affiliate": "https://chat.openai.com"
+  },
+  {
+    "name": "Midjourney",
+    "slug": "midjourney",
+    "category": "image",
+    "logo": "/images/tools/midjourney.png",
+    "description": "AI image generator creating stunning artwork.",
+    "rating": 4.8,
+    "affiliate": "https://midjourney.com"
+  },
+  {
+    "name": "Runway",
+    "slug": "runway",
+    "category": "video",
+    "logo": "/images/tools/runway.png",
+    "description": "AI video generation and editing platform.",
+    "rating": 4.7,
+    "affiliate": "https://runwayml.com"
+  },
+  {
+    "name": "Copy.ai",
+    "slug": "copyai",
+    "category": "writing",
+    "logo": "/images/tools/copyai.png",
+    "description": "AI copywriting tool for marketing and blogs.",
+    "rating": 4.6,
+    "affiliate": "https://copy.ai"
+  }
 ]
-}
