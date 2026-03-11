@@ -1,21 +1,17 @@
-<!DOCTYPE html>
+async function loadCategories(){
 
-<html>
-<head>
+const res=await fetch("data/categories.json")
 
-<title>AI Tool Categories</title>
+const cats=await res.json()
 
-<link rel="stylesheet" href="css/style.css">
+const div=document.getElementById("categories")
 
-</head>
+cats.forEach(c=>{
 
-<body>
+div.innerHTML+=`<a class="category-link" href="/?search=${c.slug}">${c.name}</a>`
 
-<h1 style="text-align:center">AI Tool Categories</h1>
+})
 
-<div id="categories" class="container"></div>
+}
 
-<script src="js/category.js"></script>
-
-</body>
-</html>
+loadCategories()

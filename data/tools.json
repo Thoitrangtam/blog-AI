@@ -1,37 +1,12 @@
 [
-{
-"name":"ChatGPT",
-"slug":"chatgpt",
-"url":"https://chat.openai.com",
-"category":"writing",
-"description":"AI chatbot for writing, coding and productivity.",
-"rating":4.9
-},
-
-{
-"name":"Midjourney",
-"slug":"midjourney",
-"url":"https://midjourney.com",
-"category":"image",
-"description":"AI image generator creating stunning artwork.",
-"rating":4.8
-},
-
-{
-"name":"Runway",
-"slug":"runway",
-"url":"https://runwayml.com",
-"category":"video",
-"description":"AI video generation and editing platform.",
-"rating":4.7
-},
-
-{
-"name":"Copy.ai",
-"slug":"copyai",
-"url":"https://copy.ai",
-"category":"writing",
-"description":"AI copywriting tool for marketing.",
-"rating":4.6
-}
+  {
+    "name": "Runway",
+    "description": "AI video creation platform",
+    "link": "https://runwayml.com"
+  },
+  {
+    "name": "Copy.ai",
+    "description": "AI copywriting tool",
+    "link": "https://copy.ai"
+  }
 ]

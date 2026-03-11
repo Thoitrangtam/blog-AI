@@ -1,81 +1,46 @@
 body{
-font-family:Inter,Arial;
+
+font-family:Arial;
+background:#f5f7fb;
 margin:0;
-background:#f6f7fb;
-}
 
-.container{
-max-width:1200px;
-margin:auto;
-padding:20px;
-}
-
-.header{
-background:white;
-border-bottom:1px solid #eee;
-}
-
-.header-inner{
-display:flex;
-justify-content:space-between;
-align-items:center;
-}
-
-.logo{
-font-weight:700;
-font-size:22px;
-}
-
-.hero{
-text-align:center;
-padding:80px 20px;
-background:white;
-}
-
-.hero input{
-padding:14px;
-width:420px;
-max-width:90%;
-border:1px solid #ddd;
-border-radius:8px;
 }
 
 .tools-grid{
+
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-gap:25px;
-margin-top:30px;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+padding:40px;
+
 }
 
 .tool-card{
+
 background:white;
 padding:20px;
-border-radius:12px;
-box-shadow:0 5px 20px rgba(0,0,0,0.06);
-transition:0.2s;
-}
+border-radius:10px;
+box-shadow:0 4px 12px rgba(0,0,0,0.08);
+text-align:center;
 
-.tool-card:hover{
-transform:translateY(-4px);
 }
 
 .tool-card img{
-width:48px;
-height:48px;
+
+width:60px;
+height:60px;
+margin-bottom:10px;
+
 }
 
-.visit-btn{
+.tool-card a{
+
 display:inline-block;
 margin-top:10px;
-background:#2563eb;
-color:white;
 padding:8px 14px;
+background:#3b82f6;
+color:white;
 border-radius:6px;
 text-decoration:none;
-}
 
-.detail-btn{
-margin-right:10px;
-text-decoration:none;
-color:#2563eb;
 }
