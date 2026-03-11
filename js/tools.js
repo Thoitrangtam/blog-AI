@@ -1,61 +1,33 @@
-const container = document.getElementById("toolsContainer")
-const searchInput = document.getElementById("searchInput")
+function getLogo(url){
 
-let tools = []
+const domain=new URL(url).hostname
 
-async function loadTools(){
-
-const res = await fetch("/data/tools.json")
-tools = await res.json()
-
-renderTools(tools)
+return `https://www.google.com/s2/favicons?domain=${domain}&sz=128`
 
 }
 
-function renderTools(list){
+async function loadTool(){
 
-container.innerHTML = ""
+const params=new URLSearchParams(location.search)
 
-list.forEach(tool=>{
+const slug=params.get("tool")
 
-const card = document.createElement("div")
-card.className = "tool-card"
+const res=await fetch("data/tools.json")
 
-card.innerHTML = `
+const tools=await res.json()
 
-<img src="${tool.logo}" alt="${tool.name}">
+const tool=tools.find(t=>t.slug===slug)
 
-<h3>${tool.name}</h3>
+document.getElementById("logo").src=getLogo(tool.url)
 
-<span class="category">${tool.category}</span>
+document.getElementById("name").innerText=tool.name
 
-<div class="rating">⭐ ${tool.rating}</div>
+document.getElementById("desc").innerText=tool.description
 
-<p>${tool.description}</p>
+document.getElementById("rating").innerText="⭐ "+tool.rating
 
-<a href="${tool.affiliate}" target="_blank" class="visit-btn">Visit</a>
-
-<a href="/tool.html?tool=${tool.slug}" class="detail-btn">Details</a>
-
-`
-
-container.appendChild(card)
-
-})
+document.getElementById("visit").href=tool.url
 
 }
 
-searchInput.addEventListener("input", e=>{
-
-const value = e.target.value.toLowerCase()
-
-const filtered = tools.filter(tool =>
-tool.name.toLowerCase().includes(value) ||
-tool.category.toLowerCase().includes(value)
-)
-
-renderTools(filtered)
-
-})
-
-loadTools()
+loadTool()
